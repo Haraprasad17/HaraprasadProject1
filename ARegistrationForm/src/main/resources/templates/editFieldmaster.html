@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+ 
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -47,8 +48,45 @@
   
 <div class="container">
   
-  
-</div>
+    <div class="container my-5">
+        <h3>Field Master Update</h3>
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-10">
+                    <form action="#" th:action="@{/updatefieldmaster/{fieldID}(fieldID=${FieldmasterEntity.fieldID})}" th:object="${FieldmasterEntity}"
+                                                                       method="post">
+                        <div class="row">
+                            <div class="form-group col-md-8">
+                                <label for="name" class="col-form-label">fieldID</label> 
+                                <input type="text" th:field="*{fieldID}" class="form-control"
+                                            id="fieldID" placeholder="fieldID" />
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="name" class="col-form-label">bitStatus</label> 
+                                <input type="text" th:field="*{bitStatus}" class="form-control"
+                                            id="bitStatus" placeholder="bitStatus" />
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="email" class="col-form-label">fieldName</label> 
+                                <input type="text" th:field="*{fieldName}" class="form-control"
+                                            id="fieldName" placeholder="fieldName" />
+                            </div>
+ 
+                            <div class="col-md-6">
+                                <input type="submit" class="btn btn-primary" value=" Submit ">
+                            </div>
+ 
+                            <!-- <input type="hidden" id="id" th:field="*{id}"> -->
+     
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+ 
 </html>
+  
 
