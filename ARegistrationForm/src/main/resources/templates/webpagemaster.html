@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <script th:inline="javascript">
+/*<![CDATA[*/
+
+    var message = /*[[${Message}]]*/ 'default';
+    if(message != null && message != undefined)
+    	{
+    	
+    	alert(message);
+    	
+    	}
+    
+
+/*]]>*/
+</script>
+
+  <script>
+  
+  
+  //Message
+  
+  function checkFieldData()()
+  {
+	  
+	  var languageName = $("#WebPage").val();
+	  if(languageName.trim() == '')
+		  {
+		  alert('Please provide the WebpageName .');
+		  return false;
+		  }
+	  // string pattern validation
+	  
+	  return true;
+  }
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h2>WebPage Master</h2>
+  <form action="savewebpage" method="POST">
+    <div class="form-group">
+      <label for="email">Webpage Name</label>
+      <input type="text" class="form-control" id="WebPage" placeholder="Enter WebpageName" name="webpageName" >
+    </div>
+    <button type="submit" class="btn btn-default" onclick="return checkFieldData()">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

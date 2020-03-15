@@ -28,7 +28,10 @@ public class HomeController {
 	public ModelAndView master() {
 		
 		ModelAndView mv = new ModelAndView("master");
-		mv.addObject("entitydata",lrepo.findAll());
+		mv.addObject("dataenglish",lrepo.findByLocale("en"));
+		mv.addObject("datafrench",lrepo.findByLocale("fr"));
+		mv.addObject("datakin",lrepo.findByLocale("kin"));
+		mv.addObject("datasw",lrepo.findByLocale("sw"));
 		return mv;
 	}
 

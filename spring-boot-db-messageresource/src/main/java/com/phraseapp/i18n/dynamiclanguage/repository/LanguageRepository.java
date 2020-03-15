@@ -10,4 +10,6 @@ public interface LanguageRepository extends JpaRepository<LanguageEntity, Intege
 	
 	LanguageEntity findByKeyAndLocale(String key, String locale);
 
+	LanguageEntity findByLocale(String string);
+
 }

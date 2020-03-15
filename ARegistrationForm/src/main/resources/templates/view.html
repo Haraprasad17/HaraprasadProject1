@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8">
+
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+</head>
+<body>
+ <div class="container">
+  
+  <table>
+    <thead>
+      <tr>
+     
+     <h1>Field Master data</h1>
+     <tr>
+     
+        <th>fieldID</th>
+        <th>bitStatus</th>
+        <th>createdBy</th>
+        <th>Created_on</th>
+         <th>field_name</th>      
+        <th>updatedBy</th>
+        <th>Updatedon</th>
+        
+      </tr>
+    </thead>
+        <tr th:each = "fieldmasterData: ${fieldmasterData}">
+         
+        <td th:text="${fieldmasterData.fieldID}"></td>
+        <td th:text="${fieldmasterData.bitStatus}"></td> 
+        <td th:text="${fieldmasterData.createdBy}"></td>
+        <td th:text="${fieldmasterData.createdOn}"></td>
+        <td th:text="${fieldmasterData.fieldName}"></td>
+         
+            <td th:text="${fieldmasterData.updatedBy}"></td>
+               <td th:text="${fieldmasterData.updatedOn}"></td>
+         
+    <!-- </tr>d th:text="${message.text}">Text ...</td> -->
+    </tr>  
+   
+  </table>
+  <!-- -------------------------------------------------2nd table-------------------------------------------------------------------------------- -->
+  <table>
+  <h1>Language Master Data</h1>
+  <tr>
+    <th>languageID</th>
+    <th>bitStatus</th>
+    <th>createdBy</th>
+    <th>createdOn</th>
+    <th>languageName</th>
+    <th>updatedBy</th>
+     <th>updatedOn</th>
+  </tr>
+  <tr th:each = "languagemasterData: ${languagemasterData}">
+         
+        <td th:text="${languagemasterData.languageID}"></td>
+        <td th:text="${languagemasterData.bitStatus}"></td>
+        
+        <td th:text="${languagemasterData.createdBy}"></td>
+        <td th:text="${languagemasterData.createdOn}"></td>
+        <td th:text="${languagemasterData.languageName}"></td>
+         
+            <td th:text="${languagemasterData.updatedBy}"></td>
+               <td th:text="${languagemasterData.updatedOn}"></td> 
+         
+    <!-- </tr>d th:text="${message.text}">Text ...</td> -->
+    </tr>
+
+
+
+</table>
+  <!-- -------------------------------------------------------------3rd table--------------------------------------------------------- -->
+  <table>
+  <h1>Webpage Master Data</h1>
+  <tr>
+    <th>webpageID</th>
+    <th>bitStatus</th>
+    <th>createdBy</th>
+    <th>createdOn</th>
+    <th>webpageName</th>
+    <th>updatedBy</th>
+     <th>updatedOn</th>
+  </tr>
+ <tr th:each = "webpagemasterData: ${webpagemasterData}">
+         
+        <td th:text="${webpagemasterData.webpageID}"></td>
+        
+       <td th:text="${webpagemasterData.bitStaus}"></td>   
+     
+             <td th:text="${webpagemasterData.createdBy}"></td>
+            
+        <td th:text="${webpagemasterData.createdOn}"></td>
+        
+        <td th:text="${webpagemasterData.webpageName}"></td>
+         
+            <td th:text="${webpagemasterData.updatedBy}"></td>
+            
+               <td th:text="${webpagemasterData.updatedOn}"></td> 
+    <!--      
+    </tr>d th:text="${message.text}">Text ...</td>
+    </tr>   -->
+
+
+</table>
+<!-- 3rd table  -->
+  <!-- final table -->
+  
+  <table>
+  <h1>final Master Data</h1>
+  <tr>
+    <th>slno</th>
+    <th>intWebpageiD</th>
+    <th>intFieldId</th>
+    <th>intLanguageId</th>
+    <th>vchFieldDetials</th>
+    
+  </tr>
+ <tr th:each = "finaltabledata: ${finaltabledata}">
+         
+        <td th:text="${finaltabledata.slno}"></td>
+        
+       <td th:text="${finaltabledata.webpageID}"></td>   
+     
+             <td th:text="${finaltabledata.intFieldId}"></td>
+            
+        <td th:text="${finaltabledata.languageID}"></td>
+        <td th:text="${finaltabledata.vchfielddetails}"></td>
+        
+       <!--  <td th:text="${finaltabledata.fieldDetails}"></td> -->
+         
+            
+    <!--      
+    </tr>d th:text="${message.text}">Text ...</td>
+    </tr>   -->
+
+
+</table>
+  
+  
+  
+  
+  <!-- final table -->
+  
+  
+  
+  
+</div>
+
+</body>
+
+</html>
