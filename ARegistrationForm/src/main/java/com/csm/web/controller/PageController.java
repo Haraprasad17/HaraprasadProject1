@@ -2,6 +2,7 @@ package com.csm.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -45,5 +46,16 @@ public class PageController {
 		//mv.addObject("frenchcolumn",rench[3]);
 		return mv;
 	}
+	
+	//open edit 
+		@RequestMapping("/editFieldmaster/{fieldID}")
+		public  ModelAndView Edit(@PathVariable("fieldID") int fieldID) {
+			ModelAndView mv =new ModelAndView("editFieldmaster");
+					mv.addObject("English",finalrepo.English());
+			return mv;
+		}
+	
+	
+	
 
 }

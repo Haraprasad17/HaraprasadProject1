@@ -73,6 +73,7 @@ public class Languagepagecontroller {
 		return mv;
 	}
 	
+	
 	//French
 		//show French
 		@RequestMapping("/FRENCH")
@@ -254,7 +255,7 @@ public String webpage(@RequestParam("webpageName") String webpageName,Model mode
 	
 	
 	 
-	// Language master
+	// changelanguage
 	@RequestMapping("/changeLanguage")
 	@ResponseBody
 	public String changeLanguage(@RequestBody String encodedData) throws JSONException {

@@ -55,6 +55,13 @@ tr:nth-child(even) {
          
             <td th:text="${fieldmasterData.updatedBy}"></td>
                <td th:text="${fieldmasterData.updatedOn}"></td>
+              <!-- update --> 
+               <td>
+                                    <a th:href="@{/editFieldmaster/{fieldID}(fieldID=${fieldmasterData.fieldID})}"
+                                             class="btn btn-primary">
+                                        <i class="fas fa-user-edit ml-2"></i>
+                                   update </a>
+                                </td> 
          
     <!-- </tr>d th:text="${message.text}">Text ...</td> -->
     </tr>  
@@ -83,6 +90,14 @@ tr:nth-child(even) {
          
             <td th:text="${languagemasterData.updatedBy}"></td>
                <td th:text="${languagemasterData.updatedOn}"></td> 
+               
+               <!--  update-->
+               <td>
+                                    <a th:href="@{/editLanguagemaster/{languageID}(languageID=${languagemasterData.languageID})}"
+                                             class="btn btn-primary">
+                                        <i class="fas fa-user-edit ml-2"></i>
+                                   update </a>
+                                </td>
          
     <!-- </tr>d th:text="${message.text}">Text ...</td> -->
     </tr>
@@ -91,7 +106,7 @@ tr:nth-child(even) {
 
 </table>
   <!-- -------------------------------------------------------------3rd table--------------------------------------------------------- -->
-  <table>
+  <!-- <table>
   <h1>Webpage Master Data</h1>
   <tr>
     <th>webpageID</th>
@@ -117,12 +132,19 @@ tr:nth-child(even) {
             <td th:text="${webpagemasterData.updatedBy}"></td>
             
                <td th:text="${webpagemasterData.updatedOn}"></td> 
-    <!--      
+                 update
+               <td>
+                                    <a th:href="@{/openeditEnglishpage/{webpageID}(webpageID=${webpagemasterData.webpageID})}"
+                                             class="btn btn-primary">
+                                        <i class="fas fa-user-edit ml-2"></i>
+                                   update </a>
+                                </td>
+         
     </tr>d th:text="${message.text}">Text ...</td>
-    </tr>   -->
+    </tr>  
 
 
-</table>
+</table> -->
 <!-- 3rd table  -->
   <!-- final table -->
   
@@ -148,6 +170,13 @@ tr:nth-child(even) {
         <td th:text="${finaltabledata.vchfielddetails}"></td>
         
        <!--  <td th:text="${finaltabledata.fieldDetails}"></td> -->
+        <!--  update-->
+       <td>
+                                    <a th:href="@{/editFinalmaster/{slno}(slno=${finaltabledata.slno})}"
+                                             class="btn btn-primary">
+                                        <i class="fas fa-user-edit ml-2"></i>
+                                   update </a>
+                                </td>
          
             
     <!--      

@@ -159,8 +159,8 @@ alert("Error");
 <body>
 <div class="signup-form"  >
     <form action="/examples/actions/confirmation.php" method="post">
-    <span id="1" class="langchange" style="cursor: pointer;">Eng</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="langchange" id="2" style="cursor: pointer;">Fre</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span id="3" class="langchange" style="cursor: pointer;">KenRwa</span>
-		&nbsp;&nbsp;|&nbsp;&nbsp;<span id="4" class="langchange" style="cursor: pointer;">Swe</span>
+    <span id="1" class="langchange" style="cursor: pointer;">English</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="langchange" id="2" style="cursor: pointer;">French</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span id="3" class="langchange" style="cursor: pointer;">Kinyarwanda</span>
+		&nbsp;&nbsp;|&nbsp;&nbsp;<span id="4" class="langchange" style="cursor: pointer;">Swahili</span>
 		<h2>Register</h2>
 		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
         <div class="form-group" >
@@ -182,10 +182,16 @@ alert("Error");
         <div class="form-group">
         	<input type="text" class="form-control" name="email"  required="required">
         </div>
+        
         <label class="lablechange" id="labelchange_4">Gender</label>
-        <div class="form-group">
-        	<input type="text" class="form-control" name="Gender"  required="required">
-        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label lablechange" id="labelchange_5" for="customRadioInline1">Male</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label lablechange"  id="labelchange_6" for="customRadioInline2">Female</label>
+</div>
         
 		
             <button type="submit"   class="btn btn-success btn-lg btn-block">Register Now</button>

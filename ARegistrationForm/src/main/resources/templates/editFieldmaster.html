@@ -17,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">COOPERATIVE AGENCY  </a>
+      <a class="navbar-brand" href="#">COOPERATIVE AGENCY </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -38,49 +38,17 @@
         <li><a href="/#">FieldData languagewise</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="/registration"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+         <li><a href="/registration"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
-   <form action="registration" method ="get">
+  
 <div class="container">
-  <h3>Data</h3>
- 
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Field Name</th>
-        <th>LanguageName</th>
-        <th>WebPageName</th>
-        <th>FieldDetails</th>
-         <th>Edit</th>
-         <th>Delete</th>
-       <!--  <th>sl no</th> -->
-      </tr>
-    </thead>
-    <tbody> 
-       <tr class="active"th:each = "Swahili: ${Swahili}">
-         
-        <td th:text="${Swahili[0]}"></td>
-        <td th:text="${Swahili[1]}"></td>
-        <td th:text="${Swahili[2]}"></td>
-        <td th:text="${Swahili[3]}"></td>
-       <!--  <td th:text="${Swahili[4]}"></td>  --> 
-      </tr>
-    </tbody>
-  </table>
-  <!-- <span th:each = "Swahili: ${Swahili}">
-  <input type="text" th:value=${Swahili[0]}>
-  <input type="text" th:value=${Swahili[1]}>
-  <input type="text" th:value=${Swahili[2]}>
-  <input type="text" th:value="${Swahili[3]}">
-  <input type="text" th:value="${Swahili[4]}">
-  </span>
-  <input type="submit" value="Sign up in swahili">
-</div> -->
-</form>
+  
+  
+</div>
 </body>
 </html>
 

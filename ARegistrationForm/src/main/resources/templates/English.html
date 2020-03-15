@@ -17,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">RWANDA COOPERATIVE AGENCY (RCA) </a>
+      <a class="navbar-brand" href="#">COOPERATIVE AGENCY </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -54,7 +54,10 @@
         <th>LanguageName</th>
         <th>WebPageName</th>
         <th>FieldDetails</th>
-        <th>sl no</th>
+         <!-- <th>Edit</th>
+         <th>Delete</th> -->
+        
+       <!--  <th>sl no</th> -->
       </tr>
     </thead>
     <tbody>
@@ -66,6 +69,13 @@
         <td th:text="${English[1]}"></td>
         <td th:text="${English[2]}"></td>
         <td th:text="${English[3]}"></td>
+         <!-- <td><a href="/openeditEnglishpage/${English[4]}>Update</a></td> -->
+         <!-- <td>
+                                    <a th:href="@{/openeditEnglishpage/{slno}/{slno}/{slno}(slno=${English[4]})}"
+                                             class="btn btn-primary">
+                                        <i class="fas fa-user-edit ml-2"></i>
+                                   update </a>
+                                </td> -->
         <td th:text="${English[4]}"></td>
        
       </tr>
