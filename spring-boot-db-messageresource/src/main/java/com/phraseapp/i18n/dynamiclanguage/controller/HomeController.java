@@ -1,10 +1,16 @@
 package com.phraseapp.i18n.dynamiclanguage.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.phraseapp.i18n.dynamiclanguage.repository.LanguageRepository;
 
 @Controller
 public class HomeController {
+	@Autowired
+	LanguageRepository lrepo;
 
 	@RequestMapping("/")
 	public String welcome() {
@@ -18,5 +24,12 @@ public class HomeController {
 		return "Registration";
 	}
 	
+	@RequestMapping("/data")
+	public ModelAndView master() {
+		
+		ModelAndView mv = new ModelAndView("master");
+		mv.addObject("entitydata",lrepo.findAll());
+		return mv;
+	}
 
 }
