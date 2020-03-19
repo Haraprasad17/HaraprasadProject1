@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+ 
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -46,38 +47,42 @@
 </nav>
   
 <div class="container">
-  <h3>update Your English field Data</h3>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Field Name</th>
-        <th>LanguageName</th>
-        <th>WebPageName</th>
-        <th>FieldDetails</th>
-         <th>Edit</th>
-         <th>Delete</th>
-       <!--  <th>sl no</th> -->
-      </tr>
-    </thead>
-    <tbody>
-            
-   
-        <tr class="success"th:each = "English: ${English}">
-         
-        <td th:text="${English[0]}"></td>
-        <td th:text="${English[1]}"></td>
-        <td th:text="${English[2]}"></td>
-        <td th:text="${English[3]}"></td>
-        <!-- <td th:text="${English[4]}"></td> -->
-       
-      </tr>
-      
-       
-      
-    </tbody>
-  </table>
   
-</div>
+    <div class="container my-5">
+        <h3>Field Master Update</h3>
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-10">
+                    <form action="#" th:action="@{/updatekynyarwanda/{slno}(slno=${FinalEntity.slno})}" th:object="${FinalEntity}"
+                                                                       method="GET">
+                        <!-- <div class="row">
+                            <div class="form-group col-md-8">
+                                <label for="name" class="col-form-label">slno</label> 
+                                <input type="text" th:field="*{slno}" class="form-control"
+                                            id="slno" placeholder="fieldID" />
+                                            </div> -->
+                            
+                            <div class="form-group col-md-8">
+                                <label for="email" class="col-form-label">vchfielddetails</label> 
+                                <input type="text"  class="form-control"
+                                            id="fieldName" th:field="*{vchfielddetails}" placeholder="fieldName" />
+                            </div>
+ 
+                            <div class="col-md-6">
+                                <input type="submit" class="btn btn-primary" value=" Submit ">
+                            </div>
+ 
+                            <!-- <input type="hidden" id="id" th:field="*{id}"> -->
+     
+                       <!--  </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+ 
 </html>
+  
 

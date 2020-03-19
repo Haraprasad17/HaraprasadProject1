@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -90,6 +91,37 @@ public class PageController {
 		 * "index";
 		 */
 		    return"redirect:/viewpage";
+		}
+		
+		//open update page
+		@GetMapping("finalEntity/{slno}")
+		public  ModelAndView Editf(@PathVariable("slno") int slno) {
+			ModelAndView mv =new ModelAndView("editFinalmaster");
+			mv.addObject("FinalEntity", finalrepo.findById(slno).orElse(new FinalEntity()));
+		/*
+		 * mv.addObject("languagemasterData", langrepo.findAll());
+		 * mv.addObject("webpagemasterData", webrepo.findAll());
+		 * mv.addObject("finaltabledata",finalrepo.findAll());
+		 */
+			return mv;
+		}
+		
+		
+		//update kennyarewanda data
+		@GetMapping("updatekynyarwanda/{slno}")
+		public String updateKennyaRewandaData(@PathVariable("slno") int slno, @Valid FinalEntity finalentity,BindingResult result ) throws Exception {
+			if(result.hasErrors()) {
+				finalentity.setSlno(slno);
+				
+			 throw new Exception("can't update");
+			}
+			FinalEntity f = finalrepo.findById(slno).orElse(new FinalEntity());
+			finalentity.setIntFieldId(f.getIntFieldId());
+			finalentity.setLanguageID(f.getLanguageID());
+		/* finalentity.setSlno(f.getSlno()); */
+			finalentity.setWebpageID(f.getWebpageID());
+			finalrepo.save(finalentity);
+			 return"redirect:/Kinyarwanda";
 		}
 	
 	
