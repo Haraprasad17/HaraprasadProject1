@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Properties;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
@@ -32,6 +33,7 @@ public class JspController {
 	
 	@RequestMapping("/loginpage")
 	public String LoginPage() {
+		
 		
 		return"login";
 	}

@@ -14,8 +14,9 @@ public class APIConfig extends CachingConfigurerSupport{
 
 	/*
 	 * @Bean public APIFilter aPIFilter() { return new APIFilter(); }
-	 * 
-	 *
+	 * reference
+	 *https://www.youtube.com/watch?v=TiEpi92Whtg&t=250s
+	 *https://www.youtube.com/watch?v=BhhJ11p86zM&t=106s
 	 */
 	
 	
@@ -33,6 +34,7 @@ public class APIConfig extends CachingConfigurerSupport{
 		twentySecondCache.setMaxEntriesLocalHeap(1000);
 		
 		twentySecondCache.setTimeToLiveSeconds(20);
+		
 
 		net.sf.ehcache.config.Configuration config = new net.sf.ehcache.config.Configuration();
 		config.addCache(tenSecondCache);

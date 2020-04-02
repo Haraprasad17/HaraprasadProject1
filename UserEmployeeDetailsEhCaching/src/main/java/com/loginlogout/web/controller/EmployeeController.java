@@ -2,15 +2,24 @@ package com.loginlogout.web.controller;
 
 
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+//import com.csm.web.entity.FieldmasterEntity;
 import com.loginlogout.web.entity.Employee;
 import com.loginlogout.web.repository.EmployeeRepository;
 import com.loginlogout.web.service.EmployeeService;
@@ -36,10 +45,28 @@ public class EmployeeController {
 		ModelAndView mv = new ModelAndView("showemp");
 		//mv.addObject("lists", Erepository.findAll());
 		mv.addObject("lists", eservice.fetchEmployee(isCacheable));
+		
 		System.out.println("=>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>controller");
+		
+		//List<Object> o =eservice.fetchEmployeeOrder(false);
+		//o.
+		
+				//mv.addObject(eservice.fetchEmployeeOrder(false));
+		
+		//Model model = null;
+		//model.addAttribute("details", eservice.fetchEmployeeOrder(isCacheable));
 		return mv;
 
 	}
+	
+	@ResponseBody
+	
+	@GetMapping("/test")
+	public ResponseEntity<List<Object>> getdata(@RequestParam(name = "isCacheable") boolean isCacheable ) throws InterruptedException {
+		return new ResponseEntity<List<Object>>((List<Object>) eservice.fetchEmployeeOrder(isCacheable),HttpStatus.OK);
+	}
+	
+	
 
 	@RequestMapping("/delete/{id}")
 	public ModelAndView delete(@PathVariable("id") int id) {
