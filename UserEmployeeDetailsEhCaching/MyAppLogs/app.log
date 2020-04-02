@@ -1,0 +1,748 @@
+2020-04-02 10:15:23 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 6796 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:15:23 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 13ms. Found 2 repository interfaces.
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e10899a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$44a3a80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 561 ms
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Starting...
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Start completed.
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:15:24 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:15:24 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:15:25 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:15:25 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:15:25 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.206 seconds (JVM running for 837.157)
+2020-04-02 10:15:25 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 10:15:30 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Application shutdown requested.
+2020-04-02 10:15:30 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:15:30 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:15:30 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown initiated...
+2020-04-02 10:15:30 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown completed.
+2020-04-02 10:15:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 11184 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:15:36 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:15:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-02 10:15:36 [restartedMain] INFO  %PARSER_ERROR[logger] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-02 10:15:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:15:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 111ms. Found 2 repository interfaces.
+2020-04-02 10:15:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2538500] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:15:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$59525d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 2345 ms
+2020-04-02 10:15:38 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Starting...
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Start completed.
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000412: Hibernate Core {5.3.10.Final}
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000206: hibernate.properties not found
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-02 10:15:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:15:41 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:15:42 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:15:42 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:15:42 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:15:42 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:15:42 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 6.808 seconds (JVM running for 8.572)
+2020-04-02 10:18:31 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Application shutdown requested.
+2020-04-02 10:18:31 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:18:31 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:18:31 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown initiated...
+2020-04-02 10:18:31 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown completed.
+2020-04-02 10:18:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:18:36 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:18:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-02 10:18:36 [restartedMain] INFO  %PARSER_ERROR[logger] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-02 10:18:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:18:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 100ms. Found 2 repository interfaces.
+2020-04-02 10:18:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:18:37 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 2205 ms
+2020-04-02 10:18:38 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Starting...
+2020-04-02 10:18:39 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Start completed.
+2020-04-02 10:18:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:18:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000412: Hibernate Core {5.3.10.Final}
+2020-04-02 10:18:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000206: hibernate.properties not found
+2020-04-02 10:18:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-02 10:18:40 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:18:41 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:18:41 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:18:41 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:18:42 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:18:42 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:18:42 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 6.542 seconds (JVM running for 7.784)
+2020-04-02 10:22:34 [Thread-9] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:22:34 [Thread-9] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:22:34 [Thread-9] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown initiated...
+2020-04-02 10:22:34 [Thread-9] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown completed.
+2020-04-02 10:22:35 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:22:35 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:22:35 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:22:35 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 28ms. Found 2 repository interfaces.
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 876 ms
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Starting...
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Start completed.
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:22:36 [restartedMain] WARN  %PARSER_ERROR[logger] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+	logger cannot be resolved
+
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Shutdown initiated...
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Shutdown completed.
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - Stopping service [Tomcat]
+2020-04-02 10:22:36 [restartedMain] INFO  %PARSER_ERROR[logger] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-02 10:22:36 [restartedMain] ERROR %PARSER_ERROR[logger] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.loginlogout.web.UserEmployeeDetailsApplication.main(UserEmployeeDetailsApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+	logger cannot be resolved
+
+	at com.loginlogout.web.service.EmployeeService.<init>(EmployeeService.java:18) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 37 common frames omitted
+2020-04-02 10:23:00 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:23:00 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:23:00 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:23:00 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 14ms. Found 2 repository interfaces.
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 649 ms
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Starting...
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Start completed.
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:23:01 [restartedMain] WARN  %PARSER_ERROR[logger] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getLogger(Class<capture#1-of ? extends EmployeeService>) is undefined for the type LoggerFactory
+	logger cannot be resolved
+
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Shutdown initiated...
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Shutdown completed.
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - Stopping service [Tomcat]
+2020-04-02 10:23:01 [restartedMain] INFO  %PARSER_ERROR[logger] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-02 10:23:01 [restartedMain] ERROR %PARSER_ERROR[logger] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getLogger(Class<capture#1-of ? extends EmployeeService>) is undefined for the type LoggerFactory
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.loginlogout.web.UserEmployeeDetailsApplication.main(UserEmployeeDetailsApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getLogger(Class<capture#1-of ? extends EmployeeService>) is undefined for the type LoggerFactory
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getLogger(Class<capture#1-of ? extends EmployeeService>) is undefined for the type LoggerFactory
+	logger cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getLogger(Class<capture#1-of ? extends EmployeeService>) is undefined for the type LoggerFactory
+	logger cannot be resolved
+
+	at com.loginlogout.web.service.EmployeeService.<init>(EmployeeService.java:19) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 37 common frames omitted
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 17ms. Found 2 repository interfaces.
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 575 ms
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Starting...
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Start completed.
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:23:51 [restartedMain] WARN  %PARSER_ERROR[logger] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown initiated...
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown completed.
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - Stopping service [Tomcat]
+2020-04-02 10:23:51 [restartedMain] INFO  %PARSER_ERROR[logger] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-02 10:23:51 [restartedMain] ERROR %PARSER_ERROR[logger] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.loginlogout.web.UserEmployeeDetailsApplication.main(UserEmployeeDetailsApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at com.loginlogout.web.service.EmployeeService.<init>(EmployeeService.java:18) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 37 common frames omitted
+2020-04-02 10:24:26 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:24:26 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 15ms. Found 2 repository interfaces.
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 664 ms
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Starting...
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Start completed.
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:24:27 [restartedMain] WARN  %PARSER_ERROR[logger] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Shutdown initiated...
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Shutdown completed.
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - Stopping service [Tomcat]
+2020-04-02 10:24:27 [restartedMain] INFO  %PARSER_ERROR[logger] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-02 10:24:27 [restartedMain] ERROR %PARSER_ERROR[logger] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'eservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.loginlogout.web.UserEmployeeDetailsApplication.main(UserEmployeeDetailsApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes\com\loginlogout\web\service\EmployeeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.loginlogout.web.service.EmployeeService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	LoggerFactory cannot be resolved
+	logger cannot be resolved
+
+	at com.loginlogout.web.service.EmployeeService.<init>(EmployeeService.java:19) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 37 common frames omitted
+2020-04-02 10:24:53 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:24:53 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 19ms. Found 2 repository interfaces.
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 649 ms
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Starting...
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Start completed.
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:24:54 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:24:54 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:24:55 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:24:55 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:24:55 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.141 seconds (JVM running for 380.539)
+2020-04-02 10:24:55 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 10:25:13 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 10:25:13 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Servlet 'dispatcherServlet'
+2020-04-02 10:25:13 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Completed initialization in 17 ms
+2020-04-02 10:25:13 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:25:17 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - HHH000397: Using ASTQueryTranslatorFactory
+2020-04-02 10:26:15 [Thread-13] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:26:15 [Thread-13] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:26:15 [Thread-13] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Shutdown initiated...
+2020-04-02 10:26:15 [Thread-13] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Shutdown completed.
+2020-04-02 10:26:15 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 2136 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:26:15 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 16ms. Found 2 repository interfaces.
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0d304b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$ae4ed122] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 570 ms
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-7 - Starting...
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-7 - Start completed.
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:26:16 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.022 seconds (JVM running for 462.334)
+2020-04-02 10:26:16 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 10:26:24 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Application shutdown requested.
+2020-04-02 10:26:24 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:26:24 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:26:24 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-7 - Shutdown initiated...
+2020-04-02 10:26:24 [RMI TCP Connection(4)-127.0.0.1] INFO  %PARSER_ERROR[logger] - HikariPool-7 - Shutdown completed.
+2020-04-02 10:26:28 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:26:28 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:26:28 [restartedMain] INFO  %PARSER_ERROR[logger] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-02 10:26:28 [restartedMain] INFO  %PARSER_ERROR[logger] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-02 10:26:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:26:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 67ms. Found 2 repository interfaces.
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:26:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 2141 ms
+2020-04-02 10:26:31 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Starting...
+2020-04-02 10:26:31 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Start completed.
+2020-04-02 10:26:32 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:26:32 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000412: Hibernate Core {5.3.10.Final}
+2020-04-02 10:26:32 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000206: hibernate.properties not found
+2020-04-02 10:26:32 [restartedMain] INFO  %PARSER_ERROR[logger] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-02 10:26:32 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:26:33 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:26:34 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:26:34 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:26:34 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:26:34 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:26:34 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 6.252 seconds (JVM running for 7.649)
+2020-04-02 10:26:46 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 10:26:46 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Servlet 'dispatcherServlet'
+2020-04-02 10:26:46 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Completed initialization in 20 ms
+2020-04-02 10:26:46 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:26:50 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - HHH000397: Using ASTQueryTranslatorFactory
+2020-04-02 10:36:04 [http-nio-1200-exec-4] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:36:17 [http-nio-1200-exec-6] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:36:28 [http-nio-1200-exec-8] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:36:54 [http-nio-1200-exec-6] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:37:04 [http-nio-1200-exec-8] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:37:30 [http-nio-1200-exec-2] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:39:05 [http-nio-1200-exec-5] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:39:11 [http-nio-1200-exec-6] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:43:28 [Thread-9] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:43:28 [Thread-9] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:43:28 [Thread-9] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown initiated...
+2020-04-02 10:43:28 [Thread-9] INFO  %PARSER_ERROR[logger] - HikariPool-1 - Shutdown completed.
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 17ms. Found 2 repository interfaces.
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:43:29 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 728 ms
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Starting...
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Start completed.
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 10:43:30 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.451 seconds (JVM running for 1024.036)
+2020-04-02 10:43:30 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 10:43:34 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 10:43:34 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Initializing Servlet 'dispatcherServlet'
+2020-04-02 10:43:34 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Completed initialization in 9 ms
+2020-04-02 10:43:34 [http-nio-1200-exec-1] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:43:42 [http-nio-1200-exec-2] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 10:43:57 [http-nio-1200-exec-6] INFO  %PARSER_ERROR[logger] - Entering the fetchEmployee method
+2020-04-02 11:13:13 [Thread-13] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:13:13 [Thread-13] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:13:13 [Thread-13] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Shutdown initiated...
+2020-04-02 11:13:13 [Thread-13] INFO  %PARSER_ERROR[logger] - HikariPool-2 - Shutdown completed.
+2020-04-02 11:13:13 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 11:13:13 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 40ms. Found 2 repository interfaces.
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 820 ms
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Starting...
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Start completed.
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 11:13:14 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:13:15 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:13:15 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 11:13:15 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 11:13:15 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 11:13:15 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.337 seconds (JVM running for 2808.382)
+2020-04-02 11:13:15 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 11:14:06 [Thread-21] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:14:06 [Thread-21] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:14:06 [Thread-21] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Shutdown initiated...
+2020-04-02 11:14:06 [Thread-21] INFO  %PARSER_ERROR[logger] - HikariPool-3 - Shutdown completed.
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 21ms. Found 2 repository interfaces.
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:14:07 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 708 ms
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Starting...
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Start completed.
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:14:08 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.289 seconds (JVM running for 2861.867)
+2020-04-02 11:14:08 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 11:14:18 [Thread-29] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:14:18 [Thread-29] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:14:18 [Thread-29] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown initiated...
+2020-04-02 11:14:18 [Thread-29] INFO  %PARSER_ERROR[logger] - HikariPool-4 - Shutdown completed.
+2020-04-02 11:14:18 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 11:14:18 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 23ms. Found 2 repository interfaces.
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 681 ms
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Starting...
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Start completed.
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:14:19 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:14:19 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 11:14:20 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 11:14:20 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 11:14:20 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.198 seconds (JVM running for 2873.325)
+2020-04-02 11:14:20 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
+2020-04-02 11:15:02 [Thread-37] INFO  %PARSER_ERROR[logger] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:15:02 [Thread-37] INFO  %PARSER_ERROR[logger] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:15:02 [Thread-37] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Shutdown initiated...
+2020-04-02 11:15:02 [Thread-37] INFO  %PARSER_ERROR[logger] - HikariPool-5 - Shutdown completed.
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting UserEmployeeDetailsApplication on LAPTOP-3HQJ46KJ with PID 19036 (C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching\target\classes started by HARAPRASAD in C:\Users\user\git\HaraprasadProject1\UserEmployeeDetailsEhCaching)
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - No active profile set, falling back to default profiles: default
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Finished Spring Data repository scanning in 17ms. Found 2 repository interfaces.
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535081e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Bean 'APIConfig' of type [com.loginlogout.web.config.APIConfig$$EnhancerBySpringCGLIB$$769222b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat initialized with port(s): 1200 (http)
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting service [Tomcat]
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing Spring embedded WebApplicationContext
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Root WebApplicationContext: initialization completed in 509 ms
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Starting...
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - HikariPool-6 - Start completed.
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 11:15:03 [restartedMain] INFO  %PARSER_ERROR[logger] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 11:15:04 [restartedMain] INFO  %PARSER_ERROR[logger] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 11:15:04 [restartedMain] WARN  %PARSER_ERROR[logger] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 11:15:04 [restartedMain] INFO  %PARSER_ERROR[logger] - LiveReload server is running on port 35729
+2020-04-02 11:15:04 [restartedMain] INFO  %PARSER_ERROR[logger] - Tomcat started on port(s): 1200 (http) with context path ''
+2020-04-02 11:15:04 [restartedMain] INFO  %PARSER_ERROR[logger] - Started UserEmployeeDetailsApplication in 1.049 seconds (JVM running for 2917.416)
+2020-04-02 11:15:04 [restartedMain] INFO  %PARSER_ERROR[logger] - Condition evaluation unchanged
